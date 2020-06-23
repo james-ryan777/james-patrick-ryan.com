@@ -1,0 +1,105 @@
+/***************************** Base Styles ********************/
+body{
+	margin:0px;
+	background: url(../img/crossline.png) repeat;
+	text-align:center;
+	font-family: 'Montserrat', sans-serif;
+	color:DimGray;
+}
+#wrapper{
+	margin-top:150px;
+}
+
+.linebreak{
+	border: 1px solid grey;
+    margin: 30px auto;
+    width: 50%;
+}
+a#link:link{
+	color:#675161;
+}
+a#link:visited{
+	color:#675161;
+}
+a#link:hover{
+	color:#0ead69;
+}
+a#link:active {
+  color: #0ead69;
+}
+
+/********************* Name *******************/
+h1{
+	border:10px solid #6A6262;
+	margin-bottom:0px;
+	padding:30px;
+	display:inline;
+}
+h1.name {
+	color: #6F7444;
+}
+
+/********************* Title ****************/
+h2.title{
+	margin-top: 40px;
+   padding: 30px;
+}
+h2{
+	color:#6A6262;
+}
+
+/*********************** Contact ***************/
+.phone-number{
+	color:#6A6262;
+}
+a.email{
+	color:#6A6262;
+	text-decoration:none;
+}
+
+/*************************** Mission Statement ***********/
+.quote{
+	font-style:italic;
+	font-size:20px;
+	margin-top:50px;
+	line-height:30px;
+	color:#675161;
+	font-variant:small-caps;
+	font-weight:bolder;
+}
+
+/************************ Link to Portfolio ****************/
+
+}
+a.portfolio:link {
+	color:#675161;
+}
+a.portfolio:visited {
+	color:#675161;
+}
+a.portfolio:hover {
+	color:#0ead69;
+}
+a.portfolio:active {
+	color:#675161;
+}
+a.portfolio:link {
+  text-decoration: none;
+}
+a.portfolio:visited {
+  text-decoration: none;
+}
+a.portfolio:hover {
+  text-decoration: none;
+}
+a.portfolio:active {
+  text-decoration: none;
+}
+a.portfolio{
+	display:block;
+}
+
+/**************************** Footer *******************/
+footer{
+	padding-top:100px;
+}
